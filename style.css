@@ -161,7 +161,8 @@ span{
     height: 750px;
 }
 .about-img img{
-    width:20vw
+    width:28vw;
+    margin-top: -40px;
 }
 
 .heading{
@@ -198,11 +199,13 @@ span{
 .services-container .services-box{
     flex:1 1 30rem;
     background: var(--snd-bg-color);
-    padding: 3rem 2rem 4rem;
+    padding: 3rem 2rem 2rem;
     border-radius: 2rem;
     text-align: center;
     border:  .2rem solid var(--bg-color);
     transition: .5s ease;
+    width: 500px;
+
 }
 .services-container .services-box:hover{
     border-color: var(--main-color);
@@ -213,11 +216,12 @@ span{
     font-size: 7rem;
     color: var(--main-color);
 }
-.services box h3{
+.services-box h3{
     font-size: 2.6rem;
+    margin: 2rem 2rem;
 }
-.services-box p{
-    font-size:1.6rem ;
+.services-box ul{
+    font-size:1.2rem ;
     margin: 1rem 0 3rem;
 }
 
@@ -277,7 +281,7 @@ span{
 }
 
 .portfolio-layer h4{
-    font-size: 3rem;
+    font-size: 2.4rem;
 }
 
 .portfolio-layer p{
@@ -297,6 +301,23 @@ span{
 .portfolio-layer a i{
     font-size: 2rem;
     color: var(--snd-bg-color);
+}
+.portfolio-layer .btn1{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--snd-bg-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1.6rem;
+    color: var(--text-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+    width: 200px; 
+    height: 50px;
+}
+.btn1:hover{
+    box-shadow:none;
 }
 
 .contact h2{

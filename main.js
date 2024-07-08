@@ -48,10 +48,9 @@ ScrollReveal().reveal('.home-contact h1, .about-img', {origin: 'left' });
 ScrollReveal().reveal('.home-contact p, .about-content', {origin: 'right' });
 
 //typed js
-const typed = new Typed('.multiole-text', {
-    strings: ['Web Developer','Java Developer'],
-    typeSpeed: 70,
-    backSpeed: 70,
-    backDelay: 1000,
-    loop:true,
-});
+<script>
+    var typed = new Typed('.multiple-text', {
+      strings: ['Web Developer','Java Programmer','Frontend Developer'],
+      typeSpeed: 50,
+    });
+  </script>
